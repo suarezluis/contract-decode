@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './App.css';
+import Navbar from "./components/Navbar";
+import Contract from "./components/Contract";
+import Footer from "./components/Footer";
+
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Navbar />
+        <div className="container">
+          <Contract />
+        </div>
+        <Footer />
       </div>
     );
   }

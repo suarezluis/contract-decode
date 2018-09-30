@@ -1,0 +1,81 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+.navbar2 {
+  height: 10px;
+  width: 100%;
+  background-color: rgb(0, 0, 121);
+}
+
+.navbar p {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  height: 40px;
+  margin: 5px;
+}
+
+.search input {
+  text-align: center;
+}
+
+.resultCode {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.boxed {
+  width: 16% !important;
+  height: 200px;
+
+  margin: 0 5px 0 0;
+}
+
+.orangeBorder {
+  width: 90%;
+  border: 5px solid orange;
+}
+
+.redBorder {
+  width: 90%;
+  border: 5px solid red;
+}
+
+.blackBorder {
+  width: 90%;
+  border: 5px solid black;
+}
+
+.greenBorder {
+  width: 90%;
+  border: 5px solid green;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+.subtitle {
+  margin-top: -25px;
+  font-size: 10px;
+  text-align: center;
+}
+.legend {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
