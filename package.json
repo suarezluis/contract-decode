@@ -8,12 +8,12 @@
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
   },
-  "homepage":"https://suarezluis.github.io/contract-decode"
+  "homepage": "https://suarezluis.github.io/contract-decode",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "gh-pages -d build"
   }
 }
