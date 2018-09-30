@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ContractSeparation extends Component {
   render() {
     return (
-      <div className="center">
+      <div className="center resultCode">
         <p>
           <span className="orange-text resultCode">
             {this.props.productLine}

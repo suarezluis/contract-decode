@@ -30,10 +30,7 @@
 }
 
 .boxed {
-  width: 16% !important;
   height: 200px;
-
-  margin: 0 5px 0 0;
 }
 
 .orangeBorder {
