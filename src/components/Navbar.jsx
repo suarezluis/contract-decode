@@ -5,7 +5,7 @@ class Navbar extends Component {
     return (
       <div>
         <div className="navbar">
-          <img className="logo" src="./img/roadvantage.png" alt="Logo" />
+          {/* <img className="logo" src="./img/roadvantage.png" alt="Logo" /> */}
           <p className="right white-text ">
             Product Naming Conventions for Training
           </p>{" "}
